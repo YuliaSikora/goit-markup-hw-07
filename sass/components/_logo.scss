@@ -8,16 +8,17 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-.logo--header {
-  color: $accent-color;
-}
 
-.logo--footer {
-  margin-bottom: 20px;
-  text-decoration: none;
-  display: block;
-}
-.logo--foot {
-  color: $hero-color;
+  &--header {
+    color: $accent-color;
+  }
+
+  &--footer {
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  &--foot {
+    color: $hero-color;
+  }
 }
